@@ -353,6 +353,7 @@ input, select, textarea {
 
 		.row > .col-4 {
 			width: 33.33333%;
+			height: 100%;
 		}
 
 		.row > .off-4 {
@@ -1915,6 +1916,8 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
+		/*CHANGED HEIGHT. REMOVE IT TO RESTORE*/
+		height: 600px;
 	}
 
 		.box.style1 {
